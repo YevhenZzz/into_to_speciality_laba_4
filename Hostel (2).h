@@ -6,20 +6,17 @@ using namespace std;
 class Hostel
 {
 private:
-	string name; // назва готелю 
-	int number; // кількість відвідувачів за рік
-	int quantity; // кількість квартир
+	string name;  
+	int number;
+	int quantity;
 protected:
 	string location;
-	int reserved;
-
-
-	// location - розташування 
-	// reserved - зарезервовано
+	int reserved; 
+	
 public:
 	Hostel();
 	Hostel(string _name, int _number, int _quantity, string _location, int _reserved);
 	~Hostel();
 	void getname();
 	void getnumber();
-	void getquantity();
+	void getquantity()

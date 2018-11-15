@@ -5,7 +5,7 @@ using namespace std;
 
 Hostel::Hostel() {
 	name = "Kyiv";
-	number = 4323;
+	number = 4324;
 	quantity = 80;
 
 	location = "square";
